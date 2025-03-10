@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiko Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="logo.png" alt="Xiko Store Logo"></div>
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1> Bem-vindo à Xiko Store! </h1>
+            <p>🛍️ Descubra nossa coleção de produtos, com o menor preço do mercado 💎</p>
+            <button class="cta-button">🔍 Ver Produtos</button>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>👋 Sobre Nós</h2>
+            <p>A Xiko Store é uma loja especializada em oferecer produtos de alta qualidade no mercado da Amazon dos Estados Unidos. Nossa missão é proporcionar uma experiência de compra confiável e eficiente, trazendo marcas reconhecidas e produtos selecionados a preços competitivos.</p>
+            <p>Com um foco em excelência no atendimento e logística, garantimos envios rápidos e um suporte sempre disponível para nossos clientes. Nosso compromisso é facilitar o acesso a produtos essenciais, tornando a compra online mais prática e segura.</p>
+            <p>Xiko Store – Confiabilidade, qualidade e praticidade em cada pedido!</p>
+        </section>
+
+        <section id="produtos" class="produtos">
+            <div class="produtos-grid">
+                <div class="catalogo-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" class="amazon-logo">
+                    <h3>📚 Catálogo Completo</h3>
+                    <p>Explore nossa seleção exclusiva de produtos na Amazon</p>
+                    <button onclick="window.open('https://www.amazon.com/s?me=A331052GSVR5G6&marketplaceID=ATVPDKIKX0DER')">🛒 Ver Catálogo Completo</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>📬 Entre em Contato</h2>
+            <form class="contato-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🏪 Xiko Store</h3>
+                <p>✨ Sua loja online de confiança</p>
+            </div>
+            <div class="footer-section">
+                <h3>🔗 Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>📱 Contato</h3>
+                <p>📧 Email: xikostore02@gmail.com</p>
+                <p>📞 Telefone: (48) 98868-3838</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Xiko Store. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
