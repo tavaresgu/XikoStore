@@ -387,6 +387,10 @@ footer {
     .nav-links li a {
         font-size: 1.2rem;
     }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
 }
 .logo {
     height: 80px;
